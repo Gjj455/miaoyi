@@ -1,0 +1,78 @@
+@charset "utf-8";
+.top{
+	height:100px;
+	margin:10px auto 0px 490px;
+	font-family:"华文行楷";
+	font-size:27px;
+	font-weight:bold;
+}
+.text{
+	margin-top:-80px;
+	margin-left:20px ;
+	color: #FFFFFF;
+}
+
+.littletitle{
+	margin:10px auto 0px 10px;
+	font-size:24px;
+	font-weight:bold;
+	
+}
+.introduction{
+	font-size:16px;
+	margin:auto 10px;
+	line-height:20px;
+	text-indent: 2em;
+}
+.part1{
+	height:850px;
+}
+.part2{
+	height:500px;
+}
+.pic-group{
+	margin-left:40px ;
+    float: left;
+}
+.media-text{
+	width: 600px;
+	height:400px ;
+	background-image:url(../img/text-bg4.png) ;
+	background-repeat: no-repeat;
+	float: right;
+}
+.wenzi{
+	margin:80px 100px auto 150px;
+	font-size:18px;
+	font-family: "微软雅黑";
+	text-indent: 2em;
+}
+.part1-card{  
+    width: 300px;  
+    height: 350px;  
+    border: #000 solid 1px;  
+    margin:0px 58px 20px 40px;
+	float: left;  
+}  
+.part1-card img{  
+    cursor: pointer;  
+    transition: all 0.8s;  
+}  
+.part1-card img:hover{  
+    transform: scale(1.2);  
+}  
+.part1-card  a{
+	color: #000000;
+	text-decoration: none;
+}
+.part1-card a:hover{
+	color:#bebebe;
+	text-decoration: none;
+}
+.pic-group img{
+    cursor: pointer;  
+    transition: all 0.8s;  
+}
+.pic-group img:hover{
+	transform: scale(1.2);  
+}
